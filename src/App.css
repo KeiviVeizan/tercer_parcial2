@@ -44,6 +44,8 @@
 }
 .icon{
   display: flex;
+  padding-left: 100px;
+  padding-top: 30px;
 }
 .imag{
   padding-left: 10px;

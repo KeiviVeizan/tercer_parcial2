@@ -1,42 +1,51 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.encabezado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.tarj {
+    padding-left: 600px;
+    background-color: black;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.card{
+  width: 364px;
+  height: 83px;
+  border-radius: 30px;
+  padding-top: 40px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.sec{
+  padding-right: 300px;
+  color: var(--platform-aliases-texto-base, #C4C4CC);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 25.6px */
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sec2{
+  padding-left: 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.head{
+  display: flex;
+  margin: 0%;
+  color: aliceblue;
 }
-
-.card {
-  padding: 2em;
+.inf {
+  padding-right: 320px;
+  margin: 0%;
+  color: #C4C4CC;
+  text-decoration: none;
+  font-size: 8px;
 }
-
-.read-the-docs {
-  color: #888;
+.Ejer {
+  background-color:#29292E;
+  display: flex;
+  border-radius: 8px;
+}
+.icon{
+  display: flex;
+}
+.imag{
+  padding-left: 10px;
+  padding-top: 20px;
 }

@@ -11,7 +11,7 @@ function Ejercicios(props) {
             <h2>
                 {informacion.title }
             </h2>
-            <p>
+            <p className='desc'>
                 {informacion.description}
             </p>
         </div>
